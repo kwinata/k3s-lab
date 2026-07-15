@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: go-server
+spec:
+  containers:
+  - name: go-server
+    image: go-server:latest
+    imagePullPolicy: IfNotPresent
+    ports:
+    - containerPort: 8080
