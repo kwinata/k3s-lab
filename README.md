@@ -31,6 +31,7 @@ kubectl apply -f ./lb/lb-deployment.yaml
 
 ```bash
 # replace go-lb-deployment-6bf849b656-4kcnl with the name of your deployment
+# find it from `kubectl get pods`
 kubectl port-forward go-lb-deployment-6bf849b656-4kcnl 9094:8080
 # open http://localhost:9094 in your browser, you should see the response from different server ids
 ```
