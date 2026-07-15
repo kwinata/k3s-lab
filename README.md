@@ -35,6 +35,8 @@ kubectl port-forward go-lb-deployment-6bf849b656-4kcnl 9094:8080
 # open http://localhost:9094 in your browser, you should see the response from different server ids
 ```
 
+![img_1.png](img_1.png)
+
 ## Optional Dashboard
 
 View this guide [here](./DASHBOARD.md)
